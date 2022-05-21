@@ -108,4 +108,35 @@ public class Monster {
         ));
 
    //idea: add to string method to print the mons stats?
+
+   //idea: Ability class next? Confused how the battle rounds work currently in regareds to the
+   //battle actions/choices. Where are we with story?
+   //Playtesting? I have expereince with this so I should work on the 
+   //playtesting/balancing...  ._.
+   //how do you gain new abilities?
+   //abilities based on your max stats aka strengths in different areas
+
+   //Build you own spells? Weapons?
+   //You have four slots of different types (spell or weapon? and different classes have
+   //a different assortment of slots)
+   //mons drops scrolls or words of power with different affects you can add to your weapons or spells
+   //to customize your own attack
+   //make this into a typing game where the words of the spells are generated for difficulty to
+   //type and attacking is typing out the spell fast enough
+
+   //Spell character spell damanage = max mana
+   // max gem - choose what stat
+   // checks what your maxes are and what new abilites you can access
+   //change your load out
+
+   //min max stats to unlock
+   //math/damage
+   //affect
+
+// simple attack
+//power attack
+// heal
+// change gems to choose stat
+// 
+
 }
