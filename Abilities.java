@@ -80,8 +80,8 @@ public void Quick_Slash(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30,30,30);
     int cost = 1; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "ST"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -90,8 +90,8 @@ public void Mountain_Split(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 30, 40);
     int cost = 2; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "ST"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -100,8 +100,8 @@ public void Sonic_Whip(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 30, 50);
     int cost = 3; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "ST"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -110,8 +110,8 @@ public void Rapiers_Dance(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 30, 60);
     int cost = 4; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "ST"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -120,8 +120,8 @@ public void Mjornirs_Wrath(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 30, 70);
     int cost = 5; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "ST"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -136,8 +136,8 @@ public void Firebolt(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30,30,30);
     int cost = 1; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -146,8 +146,8 @@ public void Sun_Razor (character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 40, 30);
     int cost = 2; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -156,8 +156,8 @@ public void Meteror_Strike(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 50, 30);
     int cost = 3; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP" //type of damage?
 
 }
 
@@ -166,8 +166,8 @@ public void Lightning_Touch(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 60, 30);
     int cost = 4; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -176,8 +176,8 @@ public void Ice_Cruxifixition(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 70, 30);
     int cost = 5; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -192,8 +192,8 @@ public void Blessed_Prayers(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30,30,30);
     int cost = 1; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "HP"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -202,8 +202,8 @@ public void Purify(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(40, 30, 30);
     int cost = 2; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "HP"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -212,8 +212,8 @@ public void Sacrifice(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(50, 30, 30);
     int cost = 3; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "HP"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -248,8 +248,8 @@ public void Darkwood_Bow(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList([40, 30, 40);
     int cost = 2; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "ST"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -294,8 +294,8 @@ public void Soul_Summon(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(40, 40, 30);
     int cost = 2; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP + MN"; //type of damage?
 
 }
 
@@ -304,8 +304,8 @@ public void Curse(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(40, 50, 30] or [50, 40, 30]);
     int cost = 3; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -314,8 +314,8 @@ public void Dark_Burial(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(50, 60, 30] or [60, 50, 30);
     int cost = 4; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "MN"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -324,8 +324,8 @@ public void Afterlife(character player, Monster mons) {
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(70, 60, 30] or [60, 70, 30);
     int cost = 5; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "HP"; //what stat is used as it's multiplier
+    String dam_type = "HP"; //type of damage?
 
 }
 
@@ -375,6 +375,20 @@ public void Assassin5(character player, Monster mons) {
 
 }
 
+public Integer calc_damage(int max_stat, int power){
+    //include a randomly generated int percentage that times the normal damage by .85-110% for
+    //a chance of accuracy or critical damage
+    int damage = (1 + max_stat/10) * power; //*hit_chance
+
+
+    return damage;
+}
+
+public double calc_defense(int stat_lvl){
+    double defense = .1 + ((stat_lvl - 90)/10 *.05);
+
+    return defense;
 }
 
 
+}
