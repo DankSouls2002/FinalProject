@@ -227,13 +227,13 @@ public void Cleric4(character player, Monster mons) {
 
 }
 
-public void Cleric5(character player, Monster mons) {
-    //description
+public void Illuminate(character player, Monster mons) {
+    String descript = "Harness blessed light against your foe, blinding them in a ray of holiness";
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(70, 30, 30);
     int cost = 5; //1-5 cost equivalent to power
-    String pow_type = stat //what stat is used as it's multiplier
-    String dam_type = stat //type of damage?
+    String pow_type = "HP" //what stat is used as it's multiplier
+    String dam_type = "HP" //type of damage?
 
 }
 
@@ -336,7 +336,7 @@ public void Afterlife(character player, Monster mons) {
 *************************************************************************/
 
 public void Double_Strike(character player, Monster mons) {
-    String descript = "Take half damage this round to strike twice in a row on your next move for the cost of one";
+    String descript = "strike twice in a row on your next move for the cost of one";
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList([30, 40, 40);
     int cost = 2; //1-5 cost equivalent to power
@@ -345,8 +345,8 @@ public void Double_Strike(character player, Monster mons) {
 
 }
 
-public void Assassin3(character player, Monster mons) {
-    String descript = "";
+public void Evade(character player, Monster mons) {
+    String descript = "Take a magically-enhanced evasive stance, halving damage for this round";
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 50, 40] or [30, 50, 50]);
     int cost = 3; //1-5 cost equivalent to power
@@ -355,8 +355,8 @@ public void Assassin3(character player, Monster mons) {
 
 }
 
-public void Assassin4(character player, Monster mons) {
-    //description
+public void Backstab(character player, Monster mons) {
+    String descript = "Appear behind the enemy and stick them in the spine, dealing double damage";
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 60, 50] or [30, 60, 60);
     int cost = 4; //1-5 cost equivalent to power
@@ -365,8 +365,8 @@ public void Assassin4(character player, Monster mons) {
 
 }
 
-public void Assassin5(character player, Monster mons) {
-    //description
+public void Shadow Clones(character player, Monster mons) {
+    String descript = "Summon five shadow clones that repeat your next action, multiplying its effects fivefold";
     boolean active = false;
     List<Integer> Min_stats = Arrays.asList(30, 60, 70] or [30, 70, 60);
     int cost = 5; //1-5 cost equivalent to power
